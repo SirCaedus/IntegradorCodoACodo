@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.logo{
+    width: 100px;
+}
+
+.banner-home{
+    position: absolute;
+    top: 300px;
+}
+
+.text-home{
+    width: 50rem;
+}
+
+#oradores{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.img-home{
+    filter: brightness(0.5);
+}
+
+.imgOrador{
+    width:18rem;
+    margin-left: 6.5rem;
+}
+
+#honoluluSection{
+    margin-top: 1rem;
+}
+ 
+.honolulu-img{
+    width: 100%;
+}
+
+.honolulu-banner-description{
+    max-width: 48rem;
+}
+
+.form-orador{
+    width: 50%;
+}
+
+.button-send{
+    background-color: rgb(143, 240, 69);
+}
+.button-send:hover{
+    background-color: rgb(111, 184, 55);
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+}
+
+#textForm{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.textForm > span{
+    font-size: 2rem;
+}
+
+form > div > input{
+    padding: 5px;
+    width: 22rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: rgb(38, 74, 100);
+    min-height: 5rem;
+
+}
+
+.footer-li a{
+    width: 120px;
+    justify-content: center;
+}
